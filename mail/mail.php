@@ -24,9 +24,9 @@ if(isset($_POST['email'])) {
 	// or if you prefer/need to fall back to use PHP's inbuilt mail() function:
 	// $transport = Swift_MailTransport::newInstance();
 
-	$transport = Swift_SmtpTransport::newInstance('mail.ireneyeyuan.me', 25, 'tls' )
-	  ->setUsername('contactform@ireneyeyuan.me')
-	  ->setPassword('scum2014')
+	$transport = Swift_SmtpTransport::newInstance('mail.yourdomain.com', 25, 'tls' )
+	  ->setUsername('email@domain.com')
+	  ->setPassword('p@55w0rd')
 	  ;
 
 
